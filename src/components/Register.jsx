@@ -24,10 +24,10 @@ function Register() {
 
         const registerNewUser = async () => {
             try {
-                const response = await api.put('/users', newUser);
-                console.log(response)
+                const response = await api.post('/users', newUser);
+                console.log("this is the res" + response)
             } catch (error) {
-                console.log(error.response.message)
+                console.log("the error is this: " + error.response.message)
             }
             
         }
