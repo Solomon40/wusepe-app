@@ -2,3 +2,7 @@
     color: white;
     font-size: calc(10px + 2vmin);
 }
+
+.alert-success {
+    background-origin: border-box;
+}
